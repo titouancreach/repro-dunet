@@ -1,0 +1,16 @@
+@Repro_HostAddress = http://localhost:5237
+
+GET {{Repro_HostAddress}}/du/
+Accept: application/json
+
+###
+POST {{Repro_HostAddress}}/du/
+Accept: application/json
+Content-Type: application/json
+
+{
+    "param": {
+        "$type": "Circle",
+        "radius": 5"
+    }
+}
