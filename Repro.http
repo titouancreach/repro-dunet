@@ -11,6 +11,6 @@ Content-Type: application/json
 {
     "param": {
         "$type": "Circle",
-        "radius": 5"
+        "radius": 4
     }
 }
